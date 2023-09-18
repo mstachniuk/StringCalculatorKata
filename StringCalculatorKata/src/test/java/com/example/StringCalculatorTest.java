@@ -11,4 +11,12 @@ class StringCalculatorTest {
 
     assertEquals("0", result);
   }
+  @Test
+  void shouldReturnSingleDigit() {
+    String result = StringCalculator.add("1");
+
+    assertEquals("1", result);
+  }
+
+
 }
